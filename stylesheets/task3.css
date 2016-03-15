@@ -32,7 +32,7 @@ p.content{
 	text-align:center;
 	font-size:1.2rem;
 	font-weight:bold;
-	width:55%;
+	width:70%;
 	margin: 8% auto 0;
 	line-height:2rem;
 }
@@ -55,10 +55,12 @@ div.right{
 }
 
 div.pic{	                 
-	    width:70%;
+	    width:50%;
 	    display:inline-block;	   
 }
 
 div.left p{	margin:1% 0 0 0;}
 
 div.right p{ margin:1% 0 0 0;}
+
+
