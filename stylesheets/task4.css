@@ -30,12 +30,16 @@ header p{ display:inline-block;
           font-weight:bold;
           margin:0;}
 
+span.blank{ width:0;
+            line-height:60px;}
+
 .number{ background-color:white;
          margin-top:10px; 
          height:60px;}
 
 .number img{ width:60px; 
 	           height:60px; 
+             vertical-align:middle;
              }
 
 .lock{ background-color:white;
@@ -43,13 +47,12 @@ header p{ display:inline-block;
            height:60px;}
 
 .lock img{ width:60px;
-             height:60px; 
+           height:60px;
+           vertical-align:middle; 
             }
 
 input[type="text"],input[type="password"]{ line-height:50px;
                     font-size:1.2rem;
-                    position:relative;
-                    top:-23px;
                     border:0 none;
                     padding:0;}      
 
