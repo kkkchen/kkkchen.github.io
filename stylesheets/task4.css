@@ -1,5 +1,6 @@
 body,html{ margin:0;
-           width:100%;}
+           width:100%;
+           background-color:#eff0f4;}
 
 #aleft{ position:absolute;
         left:2%;
@@ -28,9 +29,6 @@ header p{ display:inline-block;
           font-size:2rem;
           font-weight:bold;
           margin:0;}
-
-section{ background-color:#eff0f4;
-         padding-top:1px; }
 
 .number{ background-color:white;
          margin-top:10px; 
