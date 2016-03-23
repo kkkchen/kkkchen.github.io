@@ -12,7 +12,7 @@ article{
        width:100%;
        max-width:35rem;
        margin: 0 auto;
-       height:100%;
+       min-height:100%;
 }
 
 nav{ 
