@@ -1,0 +1,70 @@
+*{ margin:0;
+   padding:0;
+}
+
+html, body{ height:100%;}
+
+.table{ display:table;
+	    width:100%;
+        height:100%;}
+
+section#part1{ height:100%;
+	             width:100%;
+	             display:table-cell;
+	             color:white;
+	             font-size:3.5rem;
+	             font-weight:bold;
+               line-height:8rem;
+	             text-align:center;
+	             vertical-align:middle;
+               background-image:url(images/street.jpg);
+               background-repeat:no-repeat;
+               background-position:center center;
+               background-size:cover;
+               background-attachment:fixed;
+               opacity:0.9;
+}
+
+section#part1 a{ display:inline-block;
+                 text-decoration:none;
+                 color:white;
+                 font-size:2rem;
+                 width:12rem;
+                 height:3rem;
+                 line-height:3rem;
+                 background-color:transparent;
+                 border:3px solid white;
+                 border-radius:15px;
+}
+
+
+
+section#part2{ height:100%;
+	             background-color:#7fbe7d;              
+}
+
+#content{ width:70%;
+          margin:0 auto;
+          padding:3% 0;
+          font-size:1.5rem;
+          color:gray;
+          font-weight:bold;
+}
+
+ul{ list-style-type:none; }
+
+li{ display:inline-block;}
+
+li a{ display:block;
+      background-color:#000099;
+      text-align:center;
+      color:white;
+      height:2rem;
+      width: 10rem;
+      line-height:2rem;
+      border:2px solid black;
+      border-radius:10px;
+      text-decoration:none;
+      margin:1rem;
+      box-shadow:5px 3px 1px #cc6600; 
+}
