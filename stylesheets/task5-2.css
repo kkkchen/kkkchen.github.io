@@ -15,6 +15,7 @@ header{ background-color:#5fc0cd;
 	    background-image:url(../images/imagestask5/locate2.png);
 	    background-repeat:no-repeat;
 	    background-position:98% 50%;
+      background-size:2.5rem;
         font-size:0;
         padding:2% 0 1% 0;
         text-align:center;
@@ -44,14 +45,15 @@ section#choose>div{ display:inline-block;
                     width:33%;
                     font-size:1.5rem;
                     color:#afbac0;
+                    height:2rem;
+                    line-height:2rem;
                     text-align:center;
                     padding:2% 0;
                     border-right:1px solid #afbac0;
+                    background:url(../images/imagestask5/downbutton.png) no-repeat;
+                    background-position:98% 50%;
+                    background-size:1.2rem;
                   }
-
-#dbutton{ float:right;
-          width:1.5rem;
-          padding-right:0.5%; }
            
 section#choose div#deletebor{ border-right:none;}
 
@@ -65,7 +67,10 @@ li{ padding:2% 0 2% 3%;
 
 li div{ width:1.3rem;
         display:inline-block;
-        vertical-align:middle; }
+        vertical-align:middle;
+      }
+
+li div img{ vertical-align:middle;}      
 
 p.mainin{ font-size:1.5rem;
           font-weight:bold; 
