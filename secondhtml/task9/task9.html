@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>task9</title>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no"/>
+	<link rel="stylesheet" type="text/css" href="task9.css"/>
+</head>
+
+<body>
+	<article>
+
+	<header>
+		<h4>客服热线：010-594-78634
+			<span>
+				<a href="#">登录</a>
+				<a href="#">注册</a>
+			</span>
+		</h4>
+		<div>
+			<a href="#">首页</a>
+			<a href="#">职业</a>
+			<a href="#">推荐</a>
+			<a href="#">关于</a>
+		</div>
+	</header>
+
+	<section>
+		<ul>
+			<li>
+				<p><span>1</span><br/><br/>1.定制纸箱</p>
+				<div></div>
+			</li>
+			<li>
+				<p><span>2</span><br/><br/>2.选择数量</p>
+				<div></div>
+			</li>
+			<li>
+				<p><span>3</span><br/><br/>3.上传附件</p>
+				<div></div>
+			</li>
+			<li>
+				<p><span>4</span><br/><br/>4.确认下单</p>
+				<div></div>
+			</li>
+		</ul>
+		<form name="setbox" id="setbox" method="post" action="">
+			<h2><span>|</span>请您按照以下步骤来定制您的纸箱</h2>
+			<ul>
+				<li>
+					<h3 id="choosebox">选择箱型</h3>
+					<label>
+						<input type="radio" name="box" value="box1" checked="checked"/>
+						<span><span></span></span>对口箱
+					</label>
+					<label>
+						<input type="radio" name="box" value="box2" />
+						<span><span></span></span>飞机盒
+					</label>
+					<label>
+						<input type="radio" name="box" value="box3" />
+						<span><span></span></span>天地盖
+					</label>
+					<div class="detailbutton" id="firstd" onclick="showDetail(document.getElementById('firsts'),document.getElementById('firstp'))"> 查看详情 	&nbsp; 
+						<span>
+							<span id="firsts" class="origin"></span>
+						</span>
+					</div>
+					<p id="firstp">呵呵呵呵呵呵呵呵呵</p>
+				</li>
+				<li>
+					<h3 id="choosesize">确定尺寸</h3>
+					<label>
+						<input type="radio" name="size" value="outsize" checked="checked"/>
+						<span><span></span></span>外径
+					</label>
+					<label>
+						长<input type="text" name="long" size="6"/>mm
+					</label>
+					<label>
+						宽<input type="text" name="width" size="6"/>mm
+					</label>
+					<label>
+						高<input type="text" name="height" size="6"/>mm
+					</label><br/>
+					<label>
+						<input type="radio" name="size" value="insidesize" />
+						<span><span></span></span>内径
+					</label>
+					<label>
+						长<input type="text" name="long" size="6"/>mm
+					</label>
+					<label>
+						宽<input type="text" name="width" size="6"/>mm
+					</label>
+					<label>
+						高<input type="text" name="height" size="6"/>mm
+					</label>
+					<div class="detailbutton" id="secondd" onclick="showDetail(document.getElementById('seconds'),document.getElementById('secondp'))"> 查看详情 	&nbsp; 
+						<span>
+							<span id="seconds" class="origin"></span>
+						</span>
+					</div>
+					<p id="secondp">呵呵呵呵呵呵呵呵呵</p>
+				</li>
+				<li>
+					<h3 id="choosematerial">选择材质</h3>
+					<label>
+						<input type="radio" name="material" value="material1" checked="checked"/>
+						<span><span></span></span>三层A瓦优质
+					</label>
+					<label>
+						<input type="radio" name="material" value="material2" />
+						<span><span></span></span>三层A瓦优质
+					</label>
+					<label>
+						<input type="radio" name="material" value="material3" />
+						<span><span></span></span>三层A瓦优质盖
+					</label>
+					<label>
+						<input type="radio" name="material" value="material4" />
+						<span><span></span></span>三层A瓦优质盖
+					</label>
+					<label>
+						<input type="radio" name="material" value="material5" />
+						<span><span></span></span>三层A瓦优质盖
+					</label>
+					<div class="detailbutton" id="thirdd" onclick="showDetail(document.getElementById('thirds'),document.getElementById('thirdp'))"> 查看详情 	&nbsp; 
+						<span>
+							<span id="thirds" class="origin"></span>
+						</span>
+					</div>
+					<p id="thirdp">呵呵呵呵呵呵呵呵呵</p>
+					<script type="text/javascript">
+						function showDetail(x,y){
+							if(y.style.display==="block"){
+								x.className="origin";
+								y.style.display="none";
+							}else{
+								x.className="change";
+								y.style.display="block";
+							}	
+						}
+					</script>
+				</li>
+			</ul>
+		</form>
+		<div>
+			<a href="#">下一步</a>
+		</div>
+	</section>
+
+    <footer>
+    	<div>
+	    	<p>51包装网-纸箱包装首选服务平台</p>
+	    	<p>
+			    <a href="#">关于我们</a>
+		    	<a href="#">配送流程</a>
+		    	<a href="#">联系我们</a><br/><br/>
+		    	<a href="#">下单指南</a>
+		    	<a href="#">媒体介绍</a>
+	    	</p>
+	    	<p id="sprite2code">
+		    	TEL：400-0000-000<br/>
+			    企业QQ：123456789<br/>
+		    	<span>微信号：XXXXXXXX</span>
+	    	</p>
+    	</div>
+    	<aside>北京五一包装科技有限公司copyright <span>&copy;</span> 2015 51baozhuang.com015  All Right Reserved | 京ICP备13005880号</aside>
+    </footer>
+
+	</article>
+</body>
+
+</html>
