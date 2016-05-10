@@ -1,0 +1,105 @@
+
+.addpad{ padding:5rem 0 3rem 5rem;
+		 border-left:1px dashed #999999;
+ }
+
+.addpad>h4{ color:#26a26f; }
+
+.addpad>h4:before{ content:"";
+				   display:inline-block;
+				   padding:12px;
+				   vertical-align:middle;
+				   background:url(../imagestask10/sprite1.png) no-repeat -64px -144px;
+ }
+
+ .distance{ padding-top:5rem; }
+
+ .noborder{ border:none; }
+
+ .caption{ text-align:center; }
+
+ .caption>p,.addpad>p{ color:#999999; }
+
+ .directionnum+p{ display:inline-block;
+			      width:130px;
+			      font-size:0.85em;
+			      vertical-align:middle;
+			      padding:0 5px;
+			      margin:0;
+   }
+
+ .directionnum{ content:"1";
+			    display:inline-block;
+			    width:42px;
+			    height:42px;
+			    line-height:42px;
+			    text-align:center;
+			    vertical-align:middle;
+			    color:#29b078;
+			    border-radius:50%;
+			    background:white;
+			    box-shadow:0 1px 2px black;
+    }
+
+.direction{ display:inline-block;
+			padding:16px;
+			vertical-align:middle;
+			background:url(../imagestask10/sprite1.png) no-repeat 0 -144px;
+ }
+
+.nopadding{ padding:0; 
+			margin:0;
+}
+
+.point{ display:inline-block;
+		padding:0.6rem;
+		margin:1rem 0.5rem 0 0;
+		background:white;
+		border-radius:50%;
+		box-shadow: 0 0 1px black; 
+ }
+
+.point:hover{ background:#29b078; 
+			  cursor:pointer;
+}
+
+.decoration{ list-style:none;
+			 box-shadow:0 0 1px black;
+			 display:table;
+			 width:100%;
+ }
+
+.supportcompany{ display:table-cell;
+				 width:20%;
+				 vertical-align: middle;
+				 text-align:center;
+				 background:white;
+ }
+
+ .supportcompany>a{ display:inline-block;
+				 	padding:20% 0;
+  }
+
+ .supportcompany:hover{ box-shadow: 0 0 5px 5px gray; 
+					 	position:relative;
+					 	z-index:1000;
+ }
+
+
+.friendlink>li{ float:left;
+	            width:6em;
+	            background:white;
+	            padding:0.5em 0;
+}
+
+.friendlink>li>a{ color:#999999;
+				  text-decoration:none;
+ }
+
+ .friendlink>li>a:hover{ border-bottom:1px solid #29b078; }
+
+@media screen and (max-width:768px){
+  	.addpad{ text-align:center; 
+		  	 padding:0;
+  	}
+  }

@@ -1,0 +1,43 @@
+.textgreen{ color:#29b078;}
+
+.addborder{ border-bottom:1px solid #e6e6e6;
+			padding:1em 0;
+}
+
+.nopadding{ padding:0;}
+
+#cooperatingcompany{ box-shadow: 0 0 2px gray;
+				     padding-bottom:3em;
+				     position:relative;
+				     z-index:1000;
+}
+
+.cooperating{ display:inline-block !important;
+			  color:#29b078;
+			  width:9em;
+			  text-align:left;
+
+}
+
+.cooperating>span{ display:inline-block;
+				   padding:0.5em;
+				   border:1px solid #f8c157;
+				   border-radius:50%;
+				   vertical-align: -15%;
+}
+
+.cooperating:hover{ background:transparent !important;}
+
+.cooperating:hover span,.cooperating:active span, .li-center li:nth-child(3) span{ background:#f8c157;}
+
+.li-center{ text-align:center; }
+
+.addmargin-p{ margin:2em 0;
+			  text-indent:2em;
+}
+
+.addmargin-p:last-child{ padding-bottom:3em; }
+
+.addshadow{ box-shadow: 0 0 2px gray;
+			margin-bottom:6em;
+}
