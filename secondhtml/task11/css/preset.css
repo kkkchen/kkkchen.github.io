@@ -1,0 +1,89 @@
+body{ font-family:"Microsoft YaHei","Helvetica Neue",Helvetica,Arial,sans-serif; }
+
+@media screen and (max-width:405px){
+	body{ font-size:62.5%; }
+}
+
+@media screen and (max-width:355px){
+	.fit{ float:none;
+		  width:100%;
+		  text-align:center;
+	 }
+}
+
+.tel{ color:#29b078;
+	  margin:0;
+	  height:33px;
+	  line-height:33px;
+}
+
+.social{ display:inline-block;
+		 width:30px;
+		 height:30px;
+	     margin-right:1em; }
+
+#weixin{ background:url(../imagestask11/sprite1.png) no-repeat 0 0;}
+
+#qq{ background:url(../imagestask11/sprite1.png) no-repeat -56px 0;}
+
+#weibo{ background:url(../imagestask11/sprite1.png) no-repeat -112px 0;}
+
+.navbar-default{ background-color:#29b078; }
+
+.navbar-brand{ height:auto;}
+
+.navbar{ margin:0; }
+
+.navbar-nav>li>a{ color:white !important;
+		   text-align:center;
+		   padding:35px;
+		   font-size:1.15em;
+}
+
+.navbar-nav>li>a:hover, .current{ border-bottom:4px solid white; }
+
+.movemiddle{ top:23px; }
+
+footer>.container{ background:#26a26f;
+				   color:white;
+}
+
+footer>.container a{ color:white;}
+
+.addpadding-sp{ padding:2rem 0; }
+
+.addpadding-sp>span{ font-size:1.3em; }
+
+#secondcode{ margin-right:50px;
+			 text-align:center;
+}
+
+#secondcode>span{ background:url(../imagestask11/sprite1.png) no-repeat -216px -695px;
+				  display:inline-block;
+				  width:92px;
+				  height:92px;
+				  margin-top:5px; }
+
+aside{ border-top:1px solid #32c086;
+	   padding:8px 0;
+	   text-align:center;
+}
+
+aside span{ font-size:1.5rem;
+			vertical-align:middle;
+}
+
+.bac{ background:#fafafa; }
+
+.bacwhite{ background:white; }
+
+.addpadding{ padding:5rem 0; }
+
+.addpadding-sm{ padding:3rem 0; }
+
+.addpadding-xs{ padding:1.5rem 0; }
+
+@media screen and (max-width:768px){
+	.addpadding-sp{ text-align:center;}
+}
+
