@@ -1,0 +1,284 @@
+body {
+  font-family: "Microsoft YaHei","Helvetica Neue",Helvetica,Arial,sans-serif; }
+
+header {
+  background: #1d7ad9;
+  color: white;
+  font-size: 0; }
+
+header > .container > .row > .left {
+  font-size: 1.4rem;
+  width: 65%;
+  display: inline-block; }
+
+header > .container > .row > .right {
+  width: 35%;
+  display: inline-block; }
+
+header > .container > .row > .right > a {
+  font-size: 1.6rem;
+  color: white;
+  display: inline-block;
+  padding: 3% 8%; }
+  header > .container > .row > .right > a:hover {
+    background: #ffffff;
+    color: black;
+    text-decoration: none; }
+
+nav {
+  background: #f9f9f9; }
+
+.nav-pills > li {
+  margin: 3% 5%;
+  float: none;
+  display: inline-block; }
+  .nav-pills > li:last-child {
+    margin-right: 0; }
+
+.nav-pills > li > a {
+  color: black;
+  font-size: 1.6rem;
+  font-weight: 500;
+  background: white;
+  box-shadow: 1px 1px 1px #cccccc; }
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:focus, .nav-pills > li.active > a:hover, .nav-pills > li > a:focus,
+.nav-pills > li > a:hover {
+  background: #1d7ad9;
+  color: #ffffff; }
+
+.navbar-default .navbar-toggle {
+  border: none; }
+
+.stage {
+  position: relative;
+  margin: 0; }
+  .stage > li {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #cccccc; }
+    .stage > li > span {
+      display: inline-block;
+      font-family: SimHei;
+      font-size: 1.6rem;
+      font-weight: 600;
+      color: white;
+      width: 2.5rem;
+      height: 2.5rem;
+      line-height: 2.5rem;
+      background: #cccccc;
+      margin: 1rem 0 2rem;
+      border-radius: 50%; }
+    .stage > li:first-child {
+      color: #ff7f02; }
+      .stage > li:first-child span {
+        background: #ff7f02; }
+
+.line {
+  position: absolute;
+  top: 2rem;
+  z-index: -1;
+  height: 0.5rem;
+  width: 100%;
+  background: #cccccc;
+  border-radius: 3px; }
+  .line > span {
+    background: #ff7f02;
+    display: block;
+    height: 100%;
+    width: 25%;
+    border-radius: 3px; }
+
+.step {
+  font-size: 2.2rem;
+  font-weight: 600;
+  margin-top: 5%; }
+  .step > span {
+    color: #1d7ad9; }
+
+.genre {
+  font-size: 1.8rem;
+  font-weight: 600; }
+
+.genre-heading {
+  background: #f3f3f3;
+  color: #1d7ad9;
+  height: 3.75rem;
+  line-height: 3.75rem;
+  padding-left: 1rem; }
+
+.genre-body {
+  background: #fbfcff;
+  color: #666666;
+  padding: 2rem 0;
+  position: relative; }
+  .genre-body > label {
+    margin: 0 0 0 4rem;
+    font-weight: 500; }
+
+.genre-body-lg {
+  padding: 5rem 0; }
+
+input[type="radio"] {
+  display: none; }
+  input[type="radio"] + span {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    line-height: 16px;
+    text-align: center;
+    vertical-align: -12%;
+    margin-right: 1rem;
+    background: #f8f9fb;
+    border-radius: 50%;
+    box-shadow: 0 0 1px black; }
+
+input[type="radio"]:checked + span {
+  background: #1d7ad9; }
+  input[type="radio"]:checked + span > span {
+    display: inline-block;
+    width: 4px;
+    height: 4px;
+    vertical-align: 33%;
+    background: white;
+    border-radius: 50%; }
+
+input[type="text"] {
+  background: #fbfcff;
+  border: 1px solid #e8e8e8;
+  width: 6rem; }
+
+#choosebox {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px; }
+  #choosebox:before {
+    content: "";
+    display: inline-block;
+    width: 4rem;
+    height: 2rem;
+    vertical-align: middle;
+    background: url(../imagestask12/sprite.png) no-repeat 10.5px -73px; }
+
+#choosesize:before {
+  content: "";
+  display: inline-block;
+  width: 4rem;
+  height: 2rem;
+  vertical-align: middle;
+  background: url(../imagestask12/sprite.png) no-repeat 10.5px -153px; }
+
+#choosemat:before {
+  content: "";
+  display: inline-block;
+  width: 4rem;
+  height: 2rem;
+  vertical-align: middle;
+  background: url(../imagestask12/sprite.png) no-repeat 10.5px -3px; }
+
+.showdetail {
+  position: absolute;
+  right: 1rem;
+  top: 50%;
+  background: white;
+  font-size: 1.4rem;
+  font-weight: 400;
+  padding: 0.5rem 0.5rem 0.5rem 1rem;
+  border: 1px solid #e8e8e8;
+  -webkit-transform: translate(0, -50%);
+  -moz-transform: translate(0, -50%);
+  -o-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  transform: translate(0, -50%); }
+  .showdetail > button {
+    width: 2rem;
+    height: 2.4rem;
+    background: #1d7ad9;
+    border: none;
+    border-radius: 4px; }
+    .showdetail > button > span {
+      display: inline-block;
+      width: 0;
+      height: 0;
+      border-top: 7px solid white;
+      border-right: 6px solid transparent;
+      border-left: 6px solid transparent; }
+
+.nextstep {
+  border: 1px solid #e8e8e8;
+  text-align: center;
+  padding: 10% 0;
+  margin-bottom: 8%; }
+  .nextstep > a {
+    display: inline-block;
+    font-size: 2.4rem;
+    font-weight: 600;
+    color: white;
+    background: #e15053;
+    padding: 1% 5%;
+    border-radius: 6px; }
+
+footer {
+  background: #f9f9f9;
+  font-size: 1.4rem;
+  color: #999999; }
+  footer > .container {
+    padding: 3% 15px; }
+  footer p {
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+    margin: 0; }
+  footer a {
+    color: #999999;
+    padding: 0 1rem; }
+    footer a:hover {
+      color: #1d7ad9;
+      text-decoration: none; }
+
+.font-lg {
+  font-size: 1.8rem;
+  font-weight: 600; }
+
+.lineheight-lg {
+  line-height: 2.2; }
+
+#secondcode {
+  display: inline-block;
+  width: 92px;
+  height: 92px;
+  vertical-align: middle;
+  margin-left: 1.5rem;
+  background: url(../imagestask12/sprite.png) no-repeat 0 -231px; }
+
+aside {
+  border-top: 1px solid #32c086;
+  padding: 1% 0;
+  text-align: center;
+  color: white;
+  font-size: 1.2rem;
+  background: #1d7ad9; }
+  aside > span {
+    font-size: 1.5rem;
+    vertical-align: middle; }
+
+@media screen and (max-width: 520px) {
+  .stage > li {
+    font-size: 1.4rem; }
+
+  .step {
+    font-size: 1.8rem; } }
+@media screen and (max-width: 768px) {
+  .genre-body > label {
+    display: block;
+    margin: 1rem 0 1rem 2rem; }
+
+  .nav-pills > li {
+    display: block;
+    margin: 0.5rem 0;
+    text-align: center; } }
+@media screen and (max-width: 992px) {
+  .text-xs-center {
+    text-align: center;
+    margin: 1rem 0; } }
+
+/*# sourceMappingURL=task12.css.map */
