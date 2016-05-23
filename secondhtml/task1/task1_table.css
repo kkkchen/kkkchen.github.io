@@ -1,0 +1,42 @@
+*{ 
+   margin:0;
+   padding:0;
+}
+
+html,body{ height:100%;}
+
+.big{
+	  display:table;
+	  cell-spacing:1%;
+	  table-layout:fixed;
+	  width:50%;
+	  position:absolute;
+	  top:50%;
+	  left:50%;
+	  -webkit-transform:translate(-50%,-50%);
+	  -moz-transform:translate(-50%,-50%);
+	  -o-transform:translate(-50%,-50%);
+	  -ms-transform:translate(-50%,-50%);
+	  transform:translate(-50%,-50%);
+      }
+
+.small{ 
+	    display:table-cell;
+	    padding:15%;
+	    background-color:orange;
+	    border-radius:8%;
+         }
+
+.row{ display:table-row;}
+
+.gap{ 
+	  display:table-cell;
+	  width:2%;
+}
+
+.gap-hor{ 
+	  display:table-cell;
+	  width:100%;
+	  padding:1% 0;
+}
+

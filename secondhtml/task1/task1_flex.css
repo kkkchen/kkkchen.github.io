@@ -1,0 +1,31 @@
+*{ 
+   margin:0;
+   padding:0;
+}
+
+html,body{ height:100%;}
+
+.big{
+	  width:50%;    
+	  display:-webkit-flex;
+	  display:flex;
+	  -webkit-flex-wrap:wrap;
+	  flex-wrap:wrap;
+	  -webkit-justify-content: center; /* Safari */
+	  justify-content: center;
+	  position:absolute;
+	  top:50%;
+	  left:50%;
+	  -webkit-transform:translate(-50%,-50%);
+	  -moz-transform:translate(-50%,-50%);
+	  -o-transform:translate(-50%,-50%);
+	  -ms-transform:translate(-50%,-50%);
+	  transform:translate(-50%,-50%);
+      }
+
+.small{
+	    padding:15%;
+	    background-color:orange;
+	    border-radius:8%;
+	    margin:1.5%;
+         }
