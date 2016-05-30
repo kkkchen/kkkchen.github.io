@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>task6-3</title>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no"/>
+    <meta name="renderer" content="webkit"/>
+	<link rel="stylesheet" type="text/css" href="reset.css"/>
+	<link rel="stylesheet" type="text/css" href="task6-3.css"/>
+</head>
+
+<body>
+    <header>
+    	<a href="#"><img src="imagestask6/square.png"/></a>
+    	<a href="#"><img src="imagestask6/x.png"></a>
+    	<h1>投票</h1>
+    </header>
+
+    <section>
+    	<p>发言讨论结束，请大家投票</p>
+        <button onclick="action()">
+            <span></span>
+            <audio src="123.mp3" loop="loop" preload="auto" controls="controls" id="music" hidden="hidden"></audio>
+        </button>
+        <script type="text/javascript">
+            function action(){
+                var audio=document.getElementById("music");
+                if(audio.paused){
+                    audio.play();
+                }
+                else {audio.paused();}
+            }
+        </script>
+    </section>
+
+    <aside>
+        <p>点击得票数最多人的头像</p>
+        <span></span>
+    </aside>
+
+    <ul class="content">
+        <li>
+            <p><span>水民</span></p>
+            <p><span class="number">1号</span></p>
+            <ul>
+                <li><button class="bgd kill"></button></li>
+                <li><button class="bgd search"></button></li>
+                <li><button class="bgd aim"></button></li>
+                <li><button class="bgd save"></button></li>
+            </ul>
+        </li>
+        <li>
+            <p><span>水民</span></p>
+            <p><span class="number">2号</span></p>
+            <ul>
+                <li><button class="bgd kill"></button></li>
+                <li><button class="bgd search"></button></li>
+                <li><button class="bgd aim"></button></li>
+                <li><button class="bgd save"></button></li>
+            </ul>
+        </li>
+        <li>
+            <p><span>警察</span></p>
+            <p><span class="number">3号</span></p>
+            <ul>
+                <li><button class="bgd kill"></button></li>
+                <li><button class="bgd search"></button></li>
+                <li><button class="bgd aim"></button></li>
+                <li><button class="bgd save"></button></li>
+            </ul>
+        </li>
+        <li>
+            <p><span>法官</span></p>
+            <p><span class="number">3号</span></p>
+            <ul>
+                <li><button class="bgd kill"></button></li>
+                <li><button class="bgd search"></button></li>
+                <li><button class="bgd aim"></button></li>
+                <li><button class="bgd save"></button></li>
+            </ul>
+        </li>
+        <li>
+            <p><span>狙击手</span></p>
+            <p><span class="number">4号</span></p>
+            <ul>
+                <li><button class="bgd kill"></button></li>
+                <li><button class="bgd search"></button></li>
+                <li><button class="bgd aim"></button></li>
+                <li><button class="bgd save"></button></li>
+            </ul>
+        </li>
+        <li>
+            <p><span>医生</span></p>
+            <p><span class="number">5号</span></p>
+            <ul>
+                <li><button class="bgd kill"></button></li>
+                <li><button class="bgd search"></button></li>
+                <li><button class="bgd aim"></button></li>
+                <li><button class="bgd save"></button></li>
+            </ul>
+        </li>
+        <li>
+            <p><span>杀手</span></p>
+            <p><span class="number">6号</span></p>
+            <ul>
+                <li><button class="bgd kill"></button></li>
+                <li><button class="bgd search"></button></li>
+                <li><button class="bgd aim"></button></li>
+                <li><button class="bgd save"></button></li>
+            </ul>
+        </li>
+        <li>
+            <p><span>水民</span></p>
+            <p><span class="number">7号</span></p>
+            <ul>
+                <li><button class="bgd kill"></button></li>
+                <li><button class="bgd search"></button></li>
+                <li><button class="bgd aim"></button></li>
+                <li><button class="bgd save"></button></li>
+            </ul>
+        </li>
+        <li>
+            <p><span>水民</span></p>
+            <p><span class="number">8号</span></p>
+            <ul>
+                <li><button class="bgd kill"></button></li>
+                <li><button class="bgd search"></button></li>
+                <li><button class="bgd aim"></button></li>
+                <li><button class="bgd save"></button></li>
+            </ul>
+        </li>
+        <li>
+            <p><span>水民</span></p>
+            <p><span class="number">9号</span></p>
+            <ul>
+                <li><button class="bgd kill"></button></li>
+                <li><button class="bgd search"></button></li>
+                <li><button class="bgd aim"></button></li>
+                <li><button class="bgd save"></button></li>
+            </ul>
+        </li>
+        <li>
+            <p><span>水民</span></p>
+            <p><span class="number">10号</span></p>
+            <ul>
+                <li><button class="bgd kill"></button></li>
+                <li><button class="bgd search"></button></li>
+                <li><button class="bgd aim"></button></li>
+                <li><button class="bgd save"></button></li>
+            </ul>
+        </li>
+        <li>
+            <p><span>杀手</span></p>
+            <p><span class="number">11号</span></p>
+            <ul>
+                <li><button class="bgd kill"></button></li>
+                <li><button class="bgd search"></button></li>
+                <li><button class="bgd aim"></button></li>
+                <li><button class="bgd save"></button></li>
+            </ul>
+        </li>
+        <li class="blank"></li>
+    </ul>
+
+    <footer>
+        <button type="submit">投死</button>
+    </footer>
+
+</body>
+</html>

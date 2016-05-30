@@ -2,28 +2,34 @@
    padding:0;
 }
 
+html{ font-size:10px;
+	  font-family:"Microsoft YaHei", sans-serif;
+ }
+
 img{ max-width:100%;}
 
 article{ width:1440px;
 		 margin:0 auto;
 }
 
-header h4{ color:white;
+header>h4{ color:white;
 		   background:#1d7ad9;
-		   text-indent:150px;
+		   padding:0 120px;
+		   font-size:1.4rem;
+		   line-height:40px;
+		   overflow:hidden;
 }
 
-header h4 span{ display:inline-block;
-				margin-left:860px;
-				vertical-align:middle;
-}			
+header>h4>p{ display }
 
-header h4 span a{ float:left;
-				  font-size:1.2rem;
+header>h4>span{ float:right;}			
+
+header>h4>span>a{ float:left;
+				  font-size:1.6rem;
+				  line-height:normal;
 				  color:white;
 				  text-decoration:none;
-				  padding:8px 20px;
-				  text-indent:0;
+				  padding:9px 36px;
 }
 
 header h4 span a:hover{ background:white;
@@ -31,13 +37,13 @@ header h4 span a:hover{ background:white;
  }
 
 header div{ background:#f9f9f9;
-			padding:2% 4%;
+			padding:2.7% 120px;
 			text-align:right;
 }
 
 header div a{ color:black;
 			  background:white;
-			  font-size:1.3rem;
+			  font-size:1.6rem;
 			  text-decoration:none;
               padding:1% 1.5%;
               margin:0 2%;
@@ -49,27 +55,32 @@ header div a:hover{ background:#1d7ad9;
 					color:white;
 }
 
+section{ width:1200px;
+		 margin:0 auto;
+ }
+
 section ul{ text-align:right;
 			font-size:0;
 			padding:2%;
  }
 
-section ul li{ font-size:1rem; 
+section ul li{ font-size:1.8rem; 
 			   display:inline-block;
-			   width:12%;
+			   width:160px;
 			   position:relative;
 }
 
-section ul li p{ height:100%; 
+section ul li p{  
 				 text-align:center;
 				 color:#cccccc;
 				 font-weight:bold;
 }
 
 section ul li p span{ display:inline-block;
-					  width:1.5rem;
-					  height:1.5rem;
-					  line-height:1.5rem;
+					  width:24px;
+					  height:24px;
+					  font-size:1.4rem;
+					  line-height:24px;
 					  color:white;
 					  border-radius:50%;
 					  background:#cccccc;
@@ -78,7 +89,7 @@ section ul li p span{ display:inline-block;
 section ul li div{ position:absolute;
 				   top:10px;
 				   width:100%;
-				   height:7px;
+				   height:5px;
 				   border:0;
 				   background:#cccccc;
 				   z-index:-2;
@@ -89,6 +100,7 @@ section ul li:first-child p{ color:#ff7f02; }
 section ul li:first-child p span{ border-radius:50%;
 								  background:#ff7f02;
 								  box-shadow:0 0 0 4px #ff7f02;
+								  font-size:1.8rem;
  }
 
 section ul li:first-child div{ border-radius:5px;
@@ -99,6 +111,11 @@ section ul li:first-child div{ border-radius:5px;
 
 section ul li:last-child div{  border-radius:3px;
 							   box-shadow:-2px 0 0 #cccccc;
+ }
+
+ section form h2{ font-size:2.2rem;
+			 	  font-weight:normal;
+				  margin:50px 0 20px 0; 
  }
 
 section form h2 span{ font-weight:bolder;
@@ -117,6 +134,8 @@ section form ul li{ width:auto;
 }
 
 section form ul li h3{ background-color:#f3f3f3;
+					   font-size:18px;
+					   color:#1d7ad9;
 					   padding:2% 0;
 
 }
@@ -126,7 +145,7 @@ section form ul li h3#choosebox:before{ content:"";
 										width:48px;
 										height:24px;
 										vertical-align:middle;
-										background:url(imagestask9/sprite.png) no-repeat 10.5px -75px;
+										background:url(imagestask9/sprite.png) no-repeat 10.5px -74px;
 }
 
 section form ul li h3#choosesize:before{ content:"";
@@ -147,13 +166,14 @@ section form ul li h3#choosematerial:before{ content:"";
 
 section form ul li label{ padding:3%;
 						  display:inline-block;
-						  font-size:1.2rem;
+						  font-size:1.8rem;
+						  color:#666666;
 						  position:relative;
 }
 
 section form ul li:nth-child(2) label{ padding:2%;}
 
-section form ul li:last-child label{ padding:3% 2%; }
+section form ul li:last-child label{ padding:7% 2%; }
 
 
 section form ul li label input[type="radio"]{ opacity:0;
@@ -167,8 +187,8 @@ input[type="radio"]+span{ display:inline-block;
 						  border:1px solid #d6d6d6;
 						  border-radius:50%;
 						  background:#f8f9fb;
-						  vertical-align: text-bottom;
-						  margin-right:20px;
+						  vertical-align:top;
+						  margin-right:15px;
 						  text-align:center;
 }
 
@@ -182,7 +202,9 @@ input[type="radio"]:checked+span span{ width:5px;
 									   vertical-align:23%;
 }
 
-input[type="text"]{ height:36px; }
+input[type="text"]{ height:30px; 
+					width:70px;
+}
 
 section form ul li div.detailbutton{ position:absolute;
 									 right:30px;
@@ -199,12 +221,24 @@ section form ul li div.detailbutton{ position:absolute;
 
 }
 
-#firstd,#thirdd{top:120px; }
+#firstd{top:100px; }
 
-#secondd{top:157px; }
+#secondd{top:137px; }
 
+#thirdd{top:150px; }
 
-section form ul li div.detailbutton span{ width:1.7rem;
+section form ul li div.detailbutton>p{ display:inline-block;
+									   color:#999999;
+									   height:auto;
+									   line-height:normal;
+									   font-size:1.4rem;
+									   font-weight:normal;
+									   background:transparent;
+									   vertical-align:3px;
+
+ }
+
+section form ul li div.detailbutton span{ width:23px;
 										  height:30px;
 										  background:#1d7ad9;
 										  display:inline-block;
@@ -220,7 +254,7 @@ section form ul li div.detailbutton span span.origin{ display:inline-block;
 													  border-right:8px solid transparent;
 													  border-top:16px solid white;
 													  border-radius:0;
-													  vertical-align: -9px;
+													  vertical-align: -6px;
 
 }
 
@@ -231,7 +265,7 @@ section form ul li div.detailbutton span span.change{  display:inline-block;  /*
 													   border-right:8px solid transparent;
 													   border-bottom:16px solid white;
 													   border-radius:0;
-													   vertical-align: -7px;
+													   vertical-align: -5px;
 }
 
 section form ul li p{ height:100px;
@@ -253,9 +287,9 @@ section div{ height:400px;
 			 	display:inline-block;
 			 	vertical-align:middle;
 			 	color:white;
-			 	font-size:1.5rem;
+			 	font-size:2.5rem;
 			 	line-height:normal;
-			 	padding:1% 4%;
+			 	padding:1% 6%;
 			 	background:#e15053;
 			 	border-radius:10px;
   }
@@ -265,15 +299,18 @@ footer{ background:#f9f9f9;
 		font-weight:bold;
 }
 
-footer div{ padding:5% 1% 25px 4%;
+footer div{ padding:5% 0 55px 0;
+			width:1200px;
+			margin:0 auto;
 			overflow:hidden;
 }
 
 footer div p{ float:left;
-		      width:32%;
+		      width:33%;
+		      font-size:1.4rem;
 }
 
-footer div p:first-child{ font-size:1.3rem; }
+footer div p:first-child{ font-size:2rem; }
 
 footer div p a{ color:#999999;
 				text-decoration:none;
@@ -284,14 +321,12 @@ footer div p a{ color:#999999;
 
 footer div p a:hover{ color:#1d7ad9;}
 
-#sprite2code{ background:url(imagestask9/sprite.png) no-repeat 300px -231px;
+#sprite2code{ background:url(imagestask9/sprite.png) no-repeat 180px -231px;
 			  height:92px;
+			  width:300px;
 			  line-height:1.9;
-			  margin-top:-10px;
-  			  text-align:center;
+			  margin:-10px 0 0 80px;
 }
-
-#sprite2code span{ margin-left:-9px; }
 
 aside{ border-top:1px solid #32c086;
 	   padding:8px 0;

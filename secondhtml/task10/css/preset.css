@@ -35,28 +35,30 @@ body{ font-family:"Microsoft YaHei","Helvetica Neue",Helvetica,Arial,sans-serif;
 .navbar{ margin:0; }
 
 .navbar-nav>li>a{ color:white !important;
-		   text-align:center;
-		   padding:35px;
-		   font-size:1.15em;
+				  text-align:center;
+				  padding:27px;
+				  font-size:1.15em;
 }
 
 .navbar-nav>li>a:hover, .current{ border-bottom:4px solid white; }
 
-.movemiddle{ top:23px; }
+.current:hover{ border-bottom:none; }
 
-footer>.container{ background:#26a26f;
-				   color:white;
+.movemiddle{ top:15px; }
+
+.img-brand{ max-width:80%; }
+
+footer{ background:#26a26f;
+	    color:white;
 }
 
 footer>.container a{ color:white;}
 
 .addpadding-sp{ padding:2rem 0; }
 
-.addpadding-sp>span{ font-size:1.3em; }
+.addpadding-sp>span{ font-size:1.15em; }
 
-#secondcode{ margin-right:50px;
-			 text-align:center;
-}
+#secondcode{ margin-right:50px;}
 
 #secondcode>span{ background:url(../imagestask10/sprite1.png) no-repeat -216px -695px;
 				  display:inline-block;
@@ -77,12 +79,14 @@ aside span{ font-size:1.5rem;
 
 .bacwhite{ background:white; }
 
-.addpadding{ padding:5rem 0; }
+.addpadding{ padding:3.5em 0; }
 
-.addpadding-sm{ padding:3rem 0; }
+.addpadding-sm{ padding:2.5em 0; }
 
-.addpadding-xs{ padding:1.5rem 0; }
+.addpadding-xs{ padding:1em 0; }
 
 @media screen and (max-width:768px){
 	.addpadding-sp{ text-align:center;}
+
+	#secondcode{ margin-right:0;}
 }

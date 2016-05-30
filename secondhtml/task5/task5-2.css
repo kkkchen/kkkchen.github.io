@@ -1,0 +1,193 @@
+*{ margin:0;
+   padding:0;
+}
+
+html{ font-size:10px;
+      font-family:"STHeiti SC", sans-serif;
+}
+
+img{ max-width:100%;}   
+
+article{ 
+         min-width:320px;
+         max-width:720px;
+         margin:0 auto;
+     }
+
+header{ background-color:#5fc0cd;
+	      background-image:url(imagestask5/locate2.png);
+	      background-repeat:no-repeat;
+	      background-position:98% 50%;
+        background-size:42px 44px;
+        font-size:0;
+        padding:2% 0;
+        text-align:center;
+    }        
+
+header a{ display:inline-block;
+          padding:2% 3%;
+          color:white;
+          border-radius:7px 0 0 7px;
+          background-color:#55a8b3;
+          text-decoration:none;
+          font-size:3.4rem;
+      }  
+
+header a:hover{ background-color:#fff;
+                color:#5fc0cd;
+}      
+
+header a+a{ background-color:#fff;
+            color:#5fc0cd;
+            border-radius:7px;
+            margin-left:-0.5rem;
+     }
+
+section{ padding:1.3% 0;
+         overflow:hidden;
+         border-bottom: 1px solid #afbac0;
+            }
+
+section>button{ float:left;
+                position:relative;
+                width:33%;
+                font-size:2.8rem;
+                color:#afbac0;
+                background:transparent;
+                padding:2% 0;
+                border:none;
+                border-right:1px solid #afbac0;
+            }
+
+section>button:last-child{ border:none;}            
+
+section>button>span{ position:absolute;
+                     top:50%;
+                     right:5%;
+                     margin-top:-4px;
+                     width:0;
+                     border-top:8px solid #afbac0;
+                     border-left:6.5px solid transparent;
+                     border-right:6.5px solid transparent;
+                     
+
+}            
+           
+
+ul{ list-style-type:none;
+    margin-bottom:30%;}
+
+li{ padding:3% 0 3% 7%;
+    border-bottom:1px solid #afbac0;
+    position:relative;
+}          
+
+li div{ width:25px;
+        display:inline-block;
+        vertical-align:middle;
+      }
+
+li div img{ vertical-align:middle;}      
+
+p.mainin{ font-size:2.8rem;
+          font-weight:bold; 
+          text-indent:2rem;
+          padding:2.5% 0;
+        }
+
+p.extrain1{ display:inline-block; 
+            vertical-align:middle;
+            font-size:2.8rem;
+            color:#afbac0;
+         }        
+
+p.extrain2{ display:inline-block; 
+            vertical-align:middle;
+            font-size:2.6rem;
+            color:#afbac0;
+         }
+
+p.worktime{ position:absolute;
+            right:2%;
+            top:50%;
+            -webkit-transform:translate(0,-50%);
+            -moz-transform:translate(0,-50%);
+            -o-transform:translate(0,-50%);
+            transform:translate(0,-50%);
+            color:red;
+            font-size:3rem;
+            font-weight:800;
+            padding:0.5% 2% 0.5% 0; 
+          }         
+
+p.worktime span{ color:#5fc0cd; }  
+
+footer{ background-color:#f8fafb;
+        position:fixed;
+        bottom:0;
+        padding:0.5% 0;
+        width:100%;
+        max-width: 720px;
+        min-width:320px;
+        text-align:center;
+        }
+
+.part1{ width:14%;
+        margin-right:14%;
+        text-align:center;
+        vertical-align:middle;
+        display:inline-block;
+           }
+
+.part1:last-child{ margin:0 0 0 14%;} 
+
+.part1:last-child p{ color:#afbac0;}          
+
+.part1:hover p{ color:white;}
+
+.part1:hover{ background:yellow;}
+                   
+
+.part1 p{ width:60%;
+          font-size:2rem;
+          text-align:center;
+          display:inline-block;
+          color:#5fc0cd;
+          padding-top:3%;
+         } 
+
+.part2{ width:13%;
+        min-width:65px;
+        display:inline-block;
+        background-color:#5fc0cd;
+        border-radius:50%;
+        text-align:center;
+        vertical-align:middle;
+           } 
+
+.part2>div{ width:100%;
+            padding:27% 0;
+}           
+
+.part2 img{ width:46%;
+            vertical-align:middle;
+}           
+                            
+.part2:hover{ background:yellow;}
+
+@media screen and (max-width:550px) {
+
+ html{ font-size:7px;}
+
+ }
+
+ @media screen and (max-width:400px) {
+ 
+ html{ font-size:5px;}
+
+ header{ background-size:30px 31px;}       
+
+ li div{ width:18px;}
+ 
+ }
+

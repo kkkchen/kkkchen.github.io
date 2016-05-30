@@ -1,0 +1,29 @@
+*{ margin:0;
+   padding:0;
+}
+
+html{ font-size:10px;
+	  font-family:"Hiragino Sans GB", sans-serif;
+}
+
+html,body{ height:100%;}	   
+
+html{ background-color:white; }
+
+body{ 
+	  min-width:320px;
+	  max-width:640px;
+	  margin:0 auto;
+ }
+
+header{ background-color:#29bde0;
+        padding:2% 0; 
+}
+
+img{ max-width:100%; }
+
+a{ text-decoration:none; }
+
+@media screen and (max-width:480px){
+	html{ font-size:7px; }
+}

@@ -24,7 +24,7 @@ nav{
 	padding:2% 0 0 2%;
  }
 
-section{ margin-top:8%; }
+section{ margin-top:5%; }
 
 header{
 	    text-align:center;
@@ -35,13 +35,13 @@ header{
 header+p{   
 		  font-size:3rem;
 		  width:71%;
-		  margin: 15% auto 0;
+		  margin: 10% auto 0;
 		  line-height:1.8;
 }  
 
 footer{ 
        overflow:hidden; 
-       margin-top:20%;
+       margin-top:15%;
 }
 
 footer>div{

@@ -2,26 +2,32 @@
    padding:0;
 }
 
+html{ font-size:10px;
+	  font-family:"Microsoft YaHei",sans-serif;
+}
+
 img{ max-width:100%;}
 
-article{ width:1280px;
+article{ width:1440px;
 		 margin:0 auto;
 }
 
+header{ background:white;}
+
 header h4{ color:#29b078;
-		   height:30px;
-		   line-height:30px;
-		   text-indent:150px;
-		   padding:0.5% 0;	   
+		   font-size:1.4rem;
+		   width:1200px;
+		   height:40px;
+		   line-height:40px;
+		   margin:0 auto;	   
 }
 
-header h4 span{ display:inline-block;
-				margin-left:650px;
-				vertical-align:middle;
+header h4 span{ float:right;
+				margin-top:5px;
 }			
 
 header h4 span a{ float:left;
-				  padding:20px;
+				  padding:15px;
 				  margin-right:15px;
 }
 
@@ -31,36 +37,47 @@ header h4 span a{ float:left;
 
 #weibo{ background:url(imagestask7/sprite1.png) no-repeat -112px 0;}
 
-header div{ background:#29b078;
-			padding:2.5% 10%;
+header>nav{ background:#29b078;
+			
+}
+
+header div{ width:1200px;
+			padding:3.1% 0;
 			text-align:right;
+			margin:0 auto;
+}
+
+header div img{ height:49px;
+				float:left;
+				margin-top:-13px;
 }
 
 header div a{ color:white;
-			  font-size:1.3rem;
+			  font-size:1.6rem;
 			  text-decoration:none;
-              padding:2%;
+              padding:39.5px 34.5px 35.5px;
 }
 
-header div a:hover{ border-bottom:3px solid white;}
+header div a:hover{ border-bottom:4px solid white;}
 
 footer{ background:#26a26f;
 		color:white;
 		padding-top:2%;
 }
 
-footer div{ padding:0 7% 25px;
+footer div{ width:1200px;
+			margin:0 auto 20px;
 			overflow:hidden;
 }
 
 footer div p{ float:left;
 		      width:35%;
-		      font-size:1.3rem;
+		      font-size:1.6rem;
 }
 
 footer div p a{ color:white;
 				text-decoration:none;
-				font-size:1rem;
+				font-size:1.4rem;
 				display:inline-block;
 				padding-bottom:5px;
 }
@@ -69,8 +86,7 @@ footer div p a:hover{ border-bottom:1px solid white;}
 
 #secondcode{ float:right;
 			 width:auto;
-			 margin-right:50px;
-			 font-size:1rem;
+			 font-size:1.6rem;
 			 text-align:center;
 }
 

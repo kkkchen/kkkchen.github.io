@@ -1,4 +1,8 @@
+.font-16{ font-size:1.15em; }
+
 .textgreen{ color:#29b078;}
+
+.bold{ font-weight:600; }
 
 .addborder{ border-bottom:1px solid #e6e6e6;
 			padding:1em 0;
@@ -28,16 +32,29 @@
 
 .cooperating:hover{ background:transparent !important;}
 
-.cooperating:hover span,.cooperating:active span, .li-center li:nth-child(3) span{ background:#f8c157;}
+.cooperating:hover span,.cooperating:active span, .li-center li:nth-child(3) span{ background:#f9a372;}
 
 .li-center{ text-align:center; }
 
 .addmargin-p{ margin:2em 0;
 			  text-indent:2em;
+			  color:#999;
+			  line-height:1.8;
 }
 
 .addmargin-p:last-child{ padding-bottom:3em; }
 
 .addshadow{ box-shadow: 0 0 2px gray;
 			margin-bottom:6em;
+}
+
+.media-body{ color:#999;
+			 line-height:1.8;
+ }
+
+@media screen and (max-width:768px){
+
+	#cooperatingcompany{ padding:1em 0;}
+
+				     
 }

@@ -1,0 +1,114 @@
+header{ overflow:hidden; }
+
+header h1{ color:white;
+	       font-size:3.4rem;
+	       font-weight:normal;
+	       text-align:center;
+}
+
+header h1>span{ vertical-align:middle;  }
+
+header a{ 
+		  padding:0 3%;
+		  float:right;
+}
+
+header a img{ vertical-align:middle;
+			  width:50px;	
+}
+
+header a:first-child{ float:left;}
+
+section{ padding:2% 12.5%;
+		 border-top:1px solid #74d4eb;
+		 background-color:#29bde0;
+}
+
+section div{ text-align:center;}
+
+section h2{ color:#ffc865;
+	        margin:2% 0 8%;
+	        text-align:left;
+	        font-size:3.3rem;
+}
+
+section p, section ul{ color:white;
+					   font-size:2.6rem;
+} 
+
+section p{ padding:1% 0}
+
+section>ul{ overflow:hidden; }
+
+section>ul>li{ list-style-type:none;
+			   float:left;
+			   width:33%;
+			   padding:1% 0;
+}
+
+#date li{ list-style-type:none;
+		  border-bottom:1px solid #a6a6a6;
+		  padding:2% 12%;
+	      background-color:white;
+}
+
+#date li p{ color:#a6a6a6;
+			font-size:2.6rem;
+			padding:0.5% 0;
+}
+
+#date li p:last-child{ padding-bottom:5%; }
+
+#date li span{ 
+			   font-size:2rem;
+			   color:#a6a6a6;
+			   position:absolute;
+			   right:0;
+			   bottom:0;
+}
+
+#date li h3{ font-size:3rem;
+			 font-weight:normal;
+			 margin:0 0 4% 0;
+			 position:relative;
+}
+
+#date li:last-child{ margin-bottom:20%;}
+
+footer{ position:fixed;
+	    bottom:0;
+	    background-color:rgba(41,189,224,0.5);
+	    padding:1% 0;
+	    width:100%;
+	    text-align:center;
+	    max-width:640px;
+	    min-width:320px;
+}
+
+footer a{ display:inline-block;
+          padding:3.1% 2%;
+          margin:2%;
+          background-color:#fbb435;
+          width:38.2%;
+          color:white;
+          font-size:4rem;
+          border-radius:10px;
+}
+
+footer a:first-child{ background-color:#f66f6f;}
+
+@media screen and (max-width:480px){
+	
+	header a img{ width:30px;}
+
+}
+
+@media screen and (max-width:540px){
+	
+	section p,section ul{ font-size:2.2rem; }
+
+	#date li p{ font-size:2.1rem; }
+
+	footer a{ font-size:3.3rem; }
+
+}

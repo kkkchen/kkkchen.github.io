@@ -1,0 +1,92 @@
+article{ min-height:100%;
+		 background-color:#f0f0f0;
+		 padding-bottom:11%;
+ }
+
+header a{ margin-left:3%; 
+	      display:inline-block;
+	      width:5%;
+	      min-width:25px;
+}
+
+.common{ width:89%;
+	     background-color:white;
+	     text-align:center;
+	     margin:4% auto 0;
+ }
+
+#tips{ font-size:3.5rem;
+       color:#9a9a9a;
+ 	   padding:6% 0;
+  }
+
+#tips>span{ vertical-align:-5%; }  
+
+#tips a{ 
+	     float:right;
+         padding-right:4%;
+         font-size:4rem;
+         font-weight:900;
+         color:#9a9a9a;
+ }
+
+#main h1{ color:#fbb435;
+	      font-size:3.8rem;
+	      padding:3.2% 0;
+	      border-bottom:1px solid #fbb435;
+ } 
+
+#content li{ list-style-type:none; 
+	         margin:3.6% auto;
+	         font-size:2.5rem;
+	         color:#9a9a9a;
+	         position:relative;
+} 
+
+#content li:nth-child(2n){ line-height:1.5;}
+
+#content li button{ color:white;
+	                background-color:#69d1e9;
+	                font-size:3.2rem;
+	                display:inline-block;
+	                width:82%;
+	                padding:8.6% 0;
+ }     
+
+#content #next{ position:absolute;
+	            top:50%;
+	            right:2%;
+	            -webkit-transform:translate(0,-43%);
+	            -moz-transform:translate(0,-43%);
+	            -o-transform:translate(0,-43%);
+	            -ms-transform:translate(0,-43%);
+	            transform:translate(0,-43%);
+	            width:auto;
+	            background-color:transparent;
+	            padding:0;
+ }
+
+ #next span{ display:inline-block;
+			 width:0;
+			 border-left:28px solid #fbb435;
+			 border-top:28px solid transparent;
+			 border-bottom:28px solid transparent;
+ }
+
+#aside li{ display:inline-block;
+	       padding:1.6%;
+	       margin:1% 1% 3% 1%;
+	       border-radius:50%;
+	       background-color:#9a9a9a;
+ } 
+
+#aside li:first-child{ background-color:#69d1e9; } 
+
+@media screen and (max-width:480px){
+ 
+ #next span{ 
+			 border-left:14px solid #fbb435;
+			 border-top:14px solid transparent;
+			 border-bottom:14px solid transparent;
+ }
+}
