@@ -107,6 +107,7 @@ section ul li:first-child div{ border-radius:5px;
 							   background:#ff7f02;
 							   box-shadow:2px 0 0 #ff7f02;
 							   z-index:-1;
+							   top:8px;
  }
 
 section ul li:last-child div{  border-radius:3px;
