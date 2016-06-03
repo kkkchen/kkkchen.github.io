@@ -7,6 +7,8 @@ html{ background-color:#eff0f4;
       font-size:10px;
 }
 
+body{ min-width:320px;}
+
 a{ text-decoration:none;
    color:white;
    font-size:3.2rem;
@@ -93,3 +95,7 @@ aside>a{ color:#5fc0cd;
 
 aside>a:hover{ color:white;}                     
 
+@media screen and (max-width:420px){
+
+  html{ font-size:7px;}
+}

@@ -55,7 +55,7 @@ header div img{ height:49px;
 header div a{ color:white;
 			  font-size:1.6rem;
 			  text-decoration:none;
-              padding:39.5px 34.5px 35.5px;
+              padding:39.5px 34.5px 39px;
 }
 
 header div a:hover{ border-bottom:4px solid white;}
